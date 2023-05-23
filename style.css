@@ -1,0 +1,110 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: rb1;
+  src: url(./public/4.ttf);
+}
+
+@font-face {
+  font-family: rb0;
+  src: url(./public/4_0.ttf);
+}
+
+header {
+  background: linear-gradient(-45deg, rgba(255,198,10,1) 0%, rgba(0,81,178,1) 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 0px 0px 30px 30px;
+}
+
+#logo {
+  width: 35%;
+  margin: 20px 0px;
+}
+
+.sec-account-leader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-leader {
+  font-family: rb1;
+  font-size: 15px;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  width: 66%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 2px solid #FFC60A;
+  background: #0051B2;
+  box-shadow: 3px 3px #FFC60A;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.account-leader:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+footer {
+  background: linear-gradient(-45deg, rgba(255,198,10,1) 0%, rgba(0,81,178,1) 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px 0px 0px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+footer h1 {
+  color: white;
+  margin-bottom: 10px;
+  font-family: rb0;
+  font-size: 220%;
+}
+
+hr {
+  width: 80%;
+}
+
+.link {
+  display: block;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: rb1;
+  font-size: 150%;
+}
+
+#socal-media {
+  margin: 25px 0px;
+}
+
+#socal-media i {
+  color: white;
+  padding: 0px 18px;
+  font-size: 180%;
+}
+
+#footer-to h2 {
+  color: white;
+  font-family: rb0;
+  font-size: 100%;
+}
+
+#footer-to h3 {
+  color: white;
+  font-family: rb0;
+  font-size: 100%;
+  margin-bottom: 75px;
+}
